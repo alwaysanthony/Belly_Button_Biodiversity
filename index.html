@@ -5,27 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title >Bellybutton Biodiversity</title>
-  <!--adding a link to Bootstrap's content delivery network (CDN)-->
-  <link
-  rel="stylesheet"
-  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-  
-/>
-<!--a link to our stylesheet under the link to Bootstrap's CDN-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="static/css/style.css">
-
-
+  <title>Bellybutton Biodiversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
 </head>
 
-<body  class="bg-dark">
+<body>
 
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
-        <h1 style="color:white;font-size:70px;">Belly Button Biodiversity Dashboard</h1>
-        <p style="color:white;font-size:50px;">Use the interactive charts below to explore the dataset</p>
+        <h1>Belly Button Biodiversity Dashboard</h1>
+        <p><b>Use the interactive charts below to explore the dataset</b></p>
       </div>
     </div>
     <div class="row">
@@ -43,18 +34,19 @@
         </div>
       </div>
       <div class="col-md-5">
-        <div id="bar"></div>
-        <p style="color:red;font-size:20px;"> This bar graph displays Top 10 Bacterial Species (OTUs) per individual's ID. Please enter the ID you're looking for and relvant infomation for that ID will populate.  </p>
+        <div id="bar">   
+        </div>
+        <p>The bar-graph shows the sample of top 10 bacteria cultures found in the test subject.</p>
       </div>
       <div class="col-md-5">
         <div id="gauge"></div>
-        <p style="color:red;font-size:20px;"> This gauge chart displays the weekly washing of the bellybutton based on the user ID.  </p>
+        <p>The gauge chart washing frequency for the test subject.</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
         <div id="bubble"></div>
-        <p style="color:red;font-size:20px;"> This bubble chart displays Bacteria Cultures per sample based on User ID input.  </p>
+        <p>The bubble chart shows total bacteria cultures found per sample.</p>
       </div>
     </div>
   </div>
